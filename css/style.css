@@ -1,5 +1,41 @@
 /* line 1, ./scss/style.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, ./scss/style.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 9, ./scss/style.scss */
 body {
+  margin: 1em;
+}
+
+/* line 13, ./scss/style.scss */
+.icon-container {
+  position: relative;
+  width: 117px;
+  height: 144px;
+  max-width: 117px;
   display: flex;
-  background: blue;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 23, ./scss/style.scss */
+.binder {
+  position: relative;
+  left: 1px;
+}
+
+/* line 27, ./scss/style.scss */
+.bookcover {
+  top: 0;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  left: 7px;
+  width: 110px;
 }
