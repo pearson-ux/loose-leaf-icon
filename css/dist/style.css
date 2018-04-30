@@ -20,7 +20,7 @@ body {
   position: relative;
   width: 117px;
   height: 144px;
-  max-width: 117px;
+  max-width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
