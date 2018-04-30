@@ -1,0 +1,8 @@
+/* line 1, ./scss/style.scss */
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: blue;
+}
