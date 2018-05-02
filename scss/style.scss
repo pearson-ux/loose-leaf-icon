@@ -19,9 +19,19 @@ body {
   display:flex;
   align-items: center;
   justify-content: center;
+
+  &.small {
+    width:77px;
+    height: 94px;
+
+    .bookcover {
+      width:70px;
+      left: 4px;
+    }
+  }
 }
 .binder {
-  position:relative;
+  z-index: 10;
   left:1px;
 }
 .bookcover {
@@ -31,4 +41,11 @@ body {
   border-radius:3px;
   left:7px;
   width:110px;
+}
+
+.flex {
+  display:flex;
+  > div {
+    margin:0 1em;
+  }
 }

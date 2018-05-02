@@ -34,14 +34,24 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 /* line 23, ./scss/style.scss */
+.icon-container.small {
+  width: 77px;
+  height: 94px;
+}
+/* line 27, ./scss/style.scss */
+.icon-container.small .bookcover {
+  width: 70px;
+  left: 4px;
+}
+
+/* line 33, ./scss/style.scss */
 .binder {
-  position: relative;
+  z-index: 10;
   left: 1px;
 }
 
-/* line 27, ./scss/style.scss */
+/* line 37, ./scss/style.scss */
 .bookcover {
   top: 0;
   position: absolute;
@@ -49,4 +59,16 @@ body {
   border-radius: 3px;
   left: 7px;
   width: 110px;
+}
+
+/* line 46, ./scss/style.scss */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 48, ./scss/style.scss */
+.flex > div {
+  margin: 0 1em;
 }
